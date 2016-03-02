@@ -18,9 +18,6 @@ class MoviesController < ApplicationController
     elsif @sort_column == "release_date"
       @release_date_class = "hilite"
     end
- #   @movies = Movie.find(:order => (params[:sort_by]))
-   
-  
   end
   
   def new
